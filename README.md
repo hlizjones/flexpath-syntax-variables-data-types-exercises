@@ -1,4 +1,4 @@
-### Summary of JavaScript Concepts Covered in this Module
+### Summary of JavaScript Concepts Covered in These Exercises
 
 1. **JavaScript Syntax**:
     
