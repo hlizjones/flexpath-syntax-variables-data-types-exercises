@@ -1,7 +1,5 @@
 ### Summary of JavaScript Concepts Covered in this Module
 
-The transcript covers a variety of essential and intermediate JavaScript concepts, including:
-
 1. **JavaScript Syntax**:
     
     - Rules for writing valid JavaScript code.
