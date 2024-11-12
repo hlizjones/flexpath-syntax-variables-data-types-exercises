@@ -35,7 +35,7 @@ Include relevant details here about where solution files are stored
 &nbsp;
 &nbsp;
 &nbsp;
-<br/>
+---
 
 ### Summary of JavaScript Concepts Covered in These Exercises
 
