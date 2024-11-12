@@ -17,7 +17,7 @@ JavaScript language and using its data types.
 3. Then open up the `exercises.js` file in the `flexpath-syntax-variables-data-types-exercises` folder. 
    Inside of this file we have provided exercises for you to complete, written 
    in code comments. For each exercise, please code ONLY in the space 
-   between the comment `// CODE IN THE OPEN LINES BELOW` and `// CODE IN THE OPEN LINES ABOVE` 
+   between the comments `// CODE IN THE OPEN LINES BELOW` and `// CODE IN THE OPEN LINES ABOVE` 
 4. To run your code for different exercises, you will update the exercise mentioned
    on line 20 of the file. 
    ![To run a different exercise, change this line](gettingStartedFiles/whereToEditToRunExercise.png)
@@ -32,7 +32,8 @@ JavaScript language and using its data types.
 8. To run `exercises.js` you will then use the command `node exercises.js` in the
    terminal to run the file.
 
-  Here is a gif record showing this process:
+  Here is a screen recordingshowing this process:
+  <video controls src="./run-exercise-recording.mp4" title="Title"></video>
 
 
 &nbsp;
