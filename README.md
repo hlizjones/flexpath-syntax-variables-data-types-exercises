@@ -35,6 +35,7 @@ JavaScript language and using its data types.
 We have included a screen recording showing this process in the file
 `run-exercise-recording.mp4` in this repo.
 
+Exercise solutions are in the `/solution` folder
 
 &nbsp;
 ---
