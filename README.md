@@ -32,8 +32,8 @@ JavaScript language and using its data types.
 8. To run `exercises.js` you will then use the command `node exercises.js` in the
    terminal to run the file.
 
-  Here is a screen recordingshowing this process:
-  <video controls src="./run-exercise-recording.mp4" title="Title"></video>
+We have included a screen recording showing this process in the file
+`run-exercise-recording.mp4` in this repo.
 
 
 &nbsp;
