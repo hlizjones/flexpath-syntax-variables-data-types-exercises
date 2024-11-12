@@ -33,8 +33,6 @@ For example, if in one of the exercise repos question 13 just asked a question t
 Include relevant details here about where solution files are stored
 
 &nbsp;
-&nbsp;
-&nbsp;
 ---
 
 ### Summary of JavaScript Concepts Covered in These Exercises
