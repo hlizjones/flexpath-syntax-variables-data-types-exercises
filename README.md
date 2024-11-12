@@ -7,7 +7,7 @@
 The intention of this exercise is to give you more experience the syntax of the 
 JavaScript language and using its data types.
 
-## [Getting Started]
+## Getting Started
 
 
 1. Using Visual Studio Code, open the folder `flexpath-syntax-variables-data-types-exercises` 
