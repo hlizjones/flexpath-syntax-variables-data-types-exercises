@@ -36,7 +36,7 @@ Include relevant details here about where solution files are stored
 
 
 
-## Summary of JavaScript Concepts Covered in These Exercises
+##### Summary of JavaScript Concepts Covered in These Exercises
 
 1. **JavaScript Syntax**:
     
