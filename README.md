@@ -1,4 +1,4 @@
-<pre>
+
 # flexpath-syntax-variables-data-types-exercises
 
 ## [Getting Started]
@@ -32,8 +32,9 @@ For example, if in one of the exercise repos question 13 just asked a question t
 
 Include relevant details here about where solution files are stored
 
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 ### Summary of JavaScript Concepts Covered in These Exercises
 
@@ -87,4 +88,3 @@ Include relevant details here about where solution files are stored
     - Creating and manipulating dates.
     - Methods for accessing parts of a date, such as `getFullYear`, `getMonth`, `getDate`, etc.
     - Understanding how JavaScript stores dates as milliseconds since the epoch.
-</pre>
