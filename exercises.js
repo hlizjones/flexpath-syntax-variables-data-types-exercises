@@ -17,7 +17,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_01();
+  exercise_19();
   // Modify the line of code ABOVE to run a different exercise
 }
 
@@ -31,7 +31,7 @@ function exercise_01() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  console.log("Hello, World!");
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -49,7 +49,10 @@ function exercise_02() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let myAge = 26;
+  const myName = "Hannah Jones";
+  console.log(myAge);
+  console.log(myName);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -76,7 +79,22 @@ function exercise_03() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let sum = num1 + num2;
+  console.log(sum);
+  let subtract = num1 - num2;
+  console.log(subtract);
+  let multiply = num1 * num2;
+  console.log(multiply);
+  let divide = num1 / num2;
+  console.log(divide);
+  console.log(`Sum: ${sum}`);
+  console.log(`Subtract: ${subtract}`);
+  console.log(`Multiply: ${multiply}`);
+  console.log(`Divide: ${divide}`);
+  console.log(`Sum: ` + sum);
+  console.log("Subtract: " + subtract);
+  console.log('Multiply: ' + multiply);
+  console.log(`Divide: ` + divide);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -95,7 +113,12 @@ function exercise_04() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let x = 6;
+  console.log(typeof(x));
+  x = "Hello, World!"
+  console.log(typeof(x));
+  x = true
+  console.log(typeof(x));
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -113,7 +136,11 @@ function exercise_05() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let isAvailable = true
+  console.log(isAvailable);
+ isAvailable = !true
+ console.log(isAvailable);
+
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -138,7 +165,14 @@ function exercise_06() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+let message = "Howdy, y'all!";
+let upper = message.toUpperCase();
+console.log(upper);
+let lower = message.toLowerCase();
+console.log(lower);
+let length = message.length;
+console.log(length);
+
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -165,7 +199,9 @@ function exercise_07() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let name = "Hannah";
+  let greeting = `Hello, ${name}! Welcome to JavaScript!`;
+  console.log(greeting);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -186,7 +222,10 @@ function exercise_08() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+ let x;
+ console.log(x);
+ let y = null
+ console.log(y);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -206,7 +245,12 @@ function exercise_09() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+let book = {
+  title: `Throne of Glass`,
+  author: `Sarah J Maas`,
+  publishedYear: 2012,
+};
+console.log(book);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -226,7 +270,15 @@ function exercise_10() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let book = {
+    title: `Throne of Glass`,
+    author: `Sarah J Maas`,
+    publishedYear: 2012,
+  };
+  console.log(book.title);
+  console.log(book['author']);
+  console.log(`Title: ${book.title}`);
+  console.log(`Author: ${book["author"]}`);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -248,7 +300,14 @@ function exercise_11() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let book = {
+    title: `Throne of Glass`,
+    author: `Sarah J Maas`,
+    publishedYear: 2012,
+  };
+  book.publishedYear = 2014;
+  book["genre"] = "Adventure";
+console.log(book);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -267,7 +326,13 @@ function exercise_12() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let book = {
+    title: `Throne of Glass`,
+    author: `Sarah J Maas`,
+    publishedYear: 2012,
+  };
+  delete book.author;
+  console.log(book);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -298,7 +363,9 @@ function exercise_13() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+ console.log(original.name);
+ copy.name = "Bob";
+ console.log(original.name);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -318,7 +385,8 @@ function exercise_14() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let currentDate = new Date();
+  console.log(currentDate);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -340,7 +408,16 @@ function exercise_15() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let currentDate = new Date();
+  console.log(currentDate);
+  console.log(currentDate.getFullYear());
+  console.log(currentDate.getMonth());
+  console.log(currentDate.getDate());
+  currentDate = new Date(2024, 9, 31, 18, 0, 0);
+  console.log(currentDate);
+  console.log(`Date: ${currentDate.getDate()}`);
+  console.log(`Hour: ${currentDate.getHours()}`);
+  console.log(`Minute: ${currentDate.getMinutes()}`);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -365,7 +442,10 @@ function exercise_16() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let birthday = new Date(1998, 2, 21, 9, 0, 0);
+  console.log(birthday);
+  console.log(birthday.toDateString());
+
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -392,7 +472,25 @@ function exercise_17() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  //My edited attempt
+  let currentDate = new Date();
+  let timeDifference = currentDate.getTime() - pastDate.getTime();
+  console.log(timeDifference);
+  let dayDifference = timeDifference/(1000 * 60 * 60 *24);
+  console.log(dayDifference);
+  console.log(Math.ceil(dayDifference));
+
+  console.log(" ")
+
+  //Solution key with console.log's added to better understand
+  const currentDate1 = new Date();
+  const timeDifference1 = currentDate1 - pastDate;
+  console.log(timeDifference1);
+  const timeToDays = timeDifference1 / (1000 * 60 * 60 * 24);
+  console.log(timeToDays);
+  const daysDifference1 = Math.ceil(timeToDays);
+  console.log(daysDifference1);
+  console.log("Day Difference:", daysDifference1);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -423,7 +521,10 @@ function exercise_18() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+let msgComplete1 = "With Plus Operator: " + msgPart1 + " " + msgPart2 + "!";
+console.log(msgComplete1);
+let msgComplete2 = `With Plus Operator: ${msgPart1} ${msgPart2}!`;
+console.log(msgComplete2);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -456,7 +557,14 @@ function exercise_19() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code here";
+  let doesContain = text.includes("JavaScript");
+  console.log(doesContain);
+  doesContain = text.includes("Python");
+  console.log(doesContain);
+  doesContain = text.includes("javascript");
+  console.log(doesContain);
+  //JavaScript is case sensitive
+
 
   // CODE IN THE OPEN LINES ABOVE
 }
